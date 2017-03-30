@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		F2253F051E7590D60022DA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F041E7590D60022DA25 /* AppDelegate.swift */; };
-		F2253F071E7590D60022DA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F061E7590D60022DA25 /* ViewController.swift */; };
+		F2253F071E7590D60022DA25 /* GenericListDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F061E7590D60022DA25 /* GenericListDisplayController.swift */; };
 		F2253F0A1E7590D60022DA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2253F081E7590D60022DA25 /* Main.storyboard */; };
 		F2253F0C1E7590D60022DA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2253F0B1E7590D60022DA25 /* Assets.xcassets */; };
 		F2253F0F1E7590D60022DA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2253F0D1E7590D60022DA25 /* LaunchScreen.storyboard */; };
+		F2253F1E1E75D9DB0022DA25 /* URL+NeoEwsaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F1D1E75D9DB0022DA25 /* URL+NeoEwsaApi.swift */; };
+		F2253F201E75D9EE0022DA25 /* NeoEwsaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F1F1E75D9EE0022DA25 /* NeoEwsaApi.swift */; };
+		F2253F221E75DDF20022DA25 /* NetworkConfig-develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F211E75DDF20022DA25 /* NetworkConfig-develop.swift */; };
+		F238E96E1E86CF1A0091B437 /* JsonKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E96D1E86CF1A0091B437 /* JsonKeys.swift */; };
+		F238E9701E86CFD70091B437 /* NeoModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E96F1E86CFD70091B437 /* NeoModelParser.swift */; };
+		F238E9721E86D0580091B437 /* Neo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E9711E86D0580091B437 /* Neo.swift */; };
+		F238E9941E86DB450091B437 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E9931E86DB450091B437 /* StoryBoard.swift */; };
+		F238E9961E86E0210091B437 /* NeoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E9951E86E0210091B437 /* NeoListModel.swift */; };
+		F238E9991E86E0760091B437 /* TableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E9981E86E0760091B437 /* TableViewItem.swift */; };
+		F238E99B1E86E0BC0091B437 /* MenuCellTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E99A1E86E0BC0091B437 /* MenuCellTypes.swift */; };
+		F238E99D1E86E28D0091B437 /* NeoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E99C1E86E28D0091B437 /* NeoListCell.swift */; };
+		F238E99F1E86E88E0091B437 /* GenericTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E99E1E86E88E0091B437 /* GenericTableViewModel.swift */; };
+		F238E9A11E86EB820091B437 /* IntroScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E9A01E86EB820091B437 /* IntroScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2253F011E7590D60022DA25 /* NEO_Early_Warning_System_Alpha_p1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEO_Early_Warning_System_Alpha_p1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2253F041E7590D60022DA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2253F061E7590D60022DA25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2253F061E7590D60022DA25 /* GenericListDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListDisplayController.swift; sourceTree = "<group>"; };
 		F2253F091E7590D60022DA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2253F0B1E7590D60022DA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2253F0E1E7590D60022DA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2253F101E7590D60022DA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2253F1D1E75D9DB0022DA25 /* URL+NeoEwsaApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+NeoEwsaApi.swift"; sourceTree = "<group>"; };
+		F2253F1F1E75D9EE0022DA25 /* NeoEwsaApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoEwsaApi.swift; sourceTree = "<group>"; };
+		F2253F211E75DDF20022DA25 /* NetworkConfig-develop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkConfig-develop.swift"; sourceTree = "<group>"; };
+		F238E96D1E86CF1A0091B437 /* JsonKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonKeys.swift; sourceTree = "<group>"; };
+		F238E96F1E86CFD70091B437 /* NeoModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoModelParser.swift; sourceTree = "<group>"; };
+		F238E9711E86D0580091B437 /* Neo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neo.swift; sourceTree = "<group>"; };
+		F238E9931E86DB450091B437 /* StoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		F238E9951E86E0210091B437 /* NeoListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoListModel.swift; sourceTree = "<group>"; };
+		F238E9981E86E0760091B437 /* TableViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewItem.swift; sourceTree = "<group>"; };
+		F238E99A1E86E0BC0091B437 /* MenuCellTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCellTypes.swift; sourceTree = "<group>"; };
+		F238E99C1E86E28D0091B437 /* NeoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoListCell.swift; sourceTree = "<group>"; };
+		F238E99E1E86E88E0091B437 /* GenericTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewModel.swift; sourceTree = "<group>"; };
+		F238E9A01E86EB820091B437 /* IntroScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +81,90 @@
 			isa = PBXGroup;
 			children = (
 				F2253F041E7590D60022DA25 /* AppDelegate.swift */,
-				F2253F061E7590D60022DA25 /* ViewController.swift */,
+				F2253F181E75D6240022DA25 /* View */,
+				F2253F171E75D61E0022DA25 /* Presentation */,
+				F2253F161E75D6150022DA25 /* View Model */,
+				F2253F1A1E75D63C0022DA25 /* Networking */,
+				F2253F191E75D62C0022DA25 /* Network Config */,
+				F238E9A21E86F6340091B437 /* Utilities */,
+				F238E9A31E86F64B0091B437 /* Project Setup */,
+			);
+			path = NEO_Early_Warning_System_Alpha_p1;
+			sourceTree = "<group>";
+		};
+		F2253F161E75D6150022DA25 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				F238E9711E86D0580091B437 /* Neo.swift */,
+				F238E9951E86E0210091B437 /* NeoListModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		F2253F171E75D61E0022DA25 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F238E99A1E86E0BC0091B437 /* MenuCellTypes.swift */,
+				F238E9A01E86EB820091B437 /* IntroScreenViewController.swift */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		F2253F181E75D6240022DA25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F238E9971E86E0610091B437 /* GenericTableView */,
 				F2253F081E7590D60022DA25 /* Main.storyboard */,
 				F2253F0B1E7590D60022DA25 /* Assets.xcassets */,
 				F2253F0D1E7590D60022DA25 /* LaunchScreen.storyboard */,
+				F238E9931E86DB450091B437 /* StoryBoard.swift */,
+				F238E99C1E86E28D0091B437 /* NeoListCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F2253F191E75D62C0022DA25 /* Network Config */ = {
+			isa = PBXGroup;
+			children = (
+				F2253F1F1E75D9EE0022DA25 /* NeoEwsaApi.swift */,
+				F2253F211E75DDF20022DA25 /* NetworkConfig-develop.swift */,
+				F238E96D1E86CF1A0091B437 /* JsonKeys.swift */,
+				F238E96F1E86CFD70091B437 /* NeoModelParser.swift */,
+			);
+			name = "Network Config";
+			sourceTree = "<group>";
+		};
+		F2253F1A1E75D63C0022DA25 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F2253F1D1E75D9DB0022DA25 /* URL+NeoEwsaApi.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F238E9971E86E0610091B437 /* GenericTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F2253F061E7590D60022DA25 /* GenericListDisplayController.swift */,
+				F238E9981E86E0760091B437 /* TableViewItem.swift */,
+				F238E99E1E86E88E0091B437 /* GenericTableViewModel.swift */,
+			);
+			name = GenericTableView;
+			sourceTree = "<group>";
+		};
+		F238E9A21E86F6340091B437 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F238E9A31E86F64B0091B437 /* Project Setup */ = {
+			isa = PBXGroup;
+			children = (
 				F2253F101E7590D60022DA25 /* Info.plist */,
 			);
-			path = NEO_Early_Warning_System_Alpha_p1;
+			name = "Project Setup";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +239,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2253F071E7590D60022DA25 /* ViewController.swift in Sources */,
+				F2253F1E1E75D9DB0022DA25 /* URL+NeoEwsaApi.swift in Sources */,
+				F238E9941E86DB450091B437 /* StoryBoard.swift in Sources */,
+				F238E99D1E86E28D0091B437 /* NeoListCell.swift in Sources */,
+				F238E99F1E86E88E0091B437 /* GenericTableViewModel.swift in Sources */,
+				F238E9961E86E0210091B437 /* NeoListModel.swift in Sources */,
+				F2253F221E75DDF20022DA25 /* NetworkConfig-develop.swift in Sources */,
+				F238E99B1E86E0BC0091B437 /* MenuCellTypes.swift in Sources */,
+				F2253F071E7590D60022DA25 /* GenericListDisplayController.swift in Sources */,
 				F2253F051E7590D60022DA25 /* AppDelegate.swift in Sources */,
+				F2253F201E75D9EE0022DA25 /* NeoEwsaApi.swift in Sources */,
+				F238E9A11E86EB820091B437 /* IntroScreenViewController.swift in Sources */,
+				F238E9991E86E0760091B437 /* TableViewItem.swift in Sources */,
+				F238E96E1E86CF1A0091B437 /* JsonKeys.swift in Sources */,
+				F238E9721E86D0580091B437 /* Neo.swift in Sources */,
+				F238E9701E86CFD70091B437 /* NeoModelParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +413,7 @@
 				F2253F151E7590D60022DA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

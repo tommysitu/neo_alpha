@@ -14,6 +14,7 @@ protocol NetworkConfigProtocol {
 
 extension URL {
   init(with apiDefinition: Api) {
+    print(apiDefinition.url)
     self.init(string: apiDefinition.url)!
   }
 }

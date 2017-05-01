@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F223F4E31EB6378B00E636BA /* cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = F223F4E21EB6378B00E636BA /* cert.pem */; };
+		F223F4E51EB6379100E636BA /* key.pem in Resources */ = {isa = PBXBuildFile; fileRef = F223F4E41EB6379100E636BA /* key.pem */; };
+		F223F4E71EB639CD00E636BA /* certificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = F223F4E61EB6395400E636BA /* certificate.cer */; };
 		F2253F051E7590D60022DA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F041E7590D60022DA25 /* AppDelegate.swift */; };
 		F2253F071E7590D60022DA25 /* GenericListDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2253F061E7590D60022DA25 /* GenericListDisplayController.swift */; };
 		F2253F0A1E7590D60022DA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2253F081E7590D60022DA25 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F223F4E21EB6378B00E636BA /* cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cert.pem; path = "../../../../../../../repositories/SmartNumbersMobile-iOS/cert.pem"; sourceTree = "<group>"; };
+		F223F4E41EB6379100E636BA /* key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = key.pem; path = "../../../../../../../repositories/SmartNumbersMobile-iOS/key.pem"; sourceTree = "<group>"; };
+		F223F4E61EB6395400E636BA /* certificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = certificate.cer; path = "../../../../../../../repositories/SmartNumbersMobile-iOS/certificate.cer"; sourceTree = "<group>"; };
 		F2253F011E7590D60022DA25 /* NEO_Early_Warning_System_Alpha_p1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEO_Early_Warning_System_Alpha_p1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2253F041E7590D60022DA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2253F061E7590D60022DA25 /* GenericListDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListDisplayController.swift; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 		F2253F031E7590D60022DA25 /* NEO_Early_Warning_System_Alpha_p1 */ = {
 			isa = PBXGroup;
 			children = (
+				F223F4E61EB6395400E636BA /* certificate.cer */,
+				F223F4E21EB6378B00E636BA /* cert.pem */,
+				F223F4E41EB6379100E636BA /* key.pem */,
 				F2253F041E7590D60022DA25 /* AppDelegate.swift */,
 				F2253F181E75D6240022DA25 /* View */,
 				F2253F171E75D61E0022DA25 /* Presentation */,
@@ -228,6 +237,9 @@
 			files = (
 				F2253F0F1E7590D60022DA25 /* LaunchScreen.storyboard in Resources */,
 				F2253F0C1E7590D60022DA25 /* Assets.xcassets in Resources */,
+				F223F4E51EB6379100E636BA /* key.pem in Resources */,
+				F223F4E31EB6378B00E636BA /* cert.pem in Resources */,
+				F223F4E71EB639CD00E636BA /* certificate.cer in Resources */,
 				F2253F0A1E7590D60022DA25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

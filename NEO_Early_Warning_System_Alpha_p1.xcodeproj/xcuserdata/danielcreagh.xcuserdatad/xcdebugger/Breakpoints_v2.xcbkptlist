@@ -2,4 +2,86 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO_Early_Warning_System_Alpha_p1/NeoListModel.swift"
+            timestampString = "515257363.278801"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "updateData(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO_Early_Warning_System_Alpha_p1/NeoListModel.swift"
+            timestampString = "515258492.214019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NEO_Early_Warning_System_Alpha_p1/NeoListModel.swift"
+            timestampString = "515258513.885067"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NEO_Early_Warning_System_Alpha_p1.NSURLSessionPinningDelegate.urlSession (__ObjC.URLSession, didReceive : __ObjC.URLAuthenticationChallenge, completionHandler : (__ObjC.URLSession.AuthChallengeDisposition, Swift.Optional&lt;__ObjC.URLCredential&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NEO_Early_Warning_System_Alpha_p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielcreagh/Documents/NEO_Warning_Sys_Alpha/p1/NEO_Early_Warning_System_Alpha_p1/NEO_Early_Warning_System_Alpha_p1/NeoListModel.swift"
+                  timestampString = "515319390.612229"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1823">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NEO_Early_Warning_System_Alpha_p1.NSURLSessionPinningDelegate.urlSession (__ObjC.URLSession, didReceive : __ObjC.URLAuthenticationChallenge, completionHandler : (__ObjC.URLSession.AuthChallengeDisposition, Swift.Optional&lt;__ObjC.URLCredential&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NEO_Early_Warning_System_Alpha_p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielcreagh/Documents/NEO_Warning_Sys_Alpha/p1/NEO_Early_Warning_System_Alpha_p1/NEO_Early_Warning_System_Alpha_p1/NeoListModel.swift"
+                  timestampString = "515319390.617115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
